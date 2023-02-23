@@ -3,7 +3,7 @@ name: myfunc
 version: 0.0.41
 timeout: 60
 idle_timeout: 60   
-runtime: java11
+runtime: java
 cmd: com.example.fn.HelloFunction::handleRequest
 config:
   funcKey1: funcValue1
