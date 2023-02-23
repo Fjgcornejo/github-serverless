@@ -4,8 +4,6 @@ version: 0.0.41
 timeout: 60
 idle_timeout: 60   
 runtime: java11
-build_image: fnproject/fn-java-fdk-build:jdk11-1.0.124
-run_image: fnproject/fn-java-fdk:jre11-latest
 cmd: com.example.fn.HelloFunction::handleRequest
 config:
   funcKey1: funcValue1
