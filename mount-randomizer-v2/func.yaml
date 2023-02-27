@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: myfunc
-version: 0.0.42
+version: 0.0.45
 runtime: java
 cmd: com.example.fn.HelloFunction::handleRequest
 timeout: 60
