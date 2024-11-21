@@ -18,7 +18,7 @@ def handler(ctx, data: io.BytesIO = None):
         else:
             raise Exception("input object is not an array of objects:" + str(json_obj))
     except (Exception, ValueError) as ex:
-        log.info('error parsing json payload: ' + str(ex))
+        log.error('error parsing json payload: ' + str(ex))
 
     log.info("Inside Python ML function")
     return response.Response(
